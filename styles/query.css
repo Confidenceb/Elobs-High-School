@@ -239,6 +239,7 @@
     max-width: 60rem;
   }
 
+  .pricing-header {
   .plan-name {
     font-size: 3rem;
   }
@@ -344,12 +345,79 @@
   }
 
   .pricing-box {
-    gap: 3.2rem;
+    gap: 2.4rem;
+  }
+  .pricing-btn {
+    font-size: 1.4rem;
+    padding: 1.6rem 3.2rem;
   }
   .cta {
     margin-left: auto;
   }
   .form {
     width: 100%;
+  }
+}
+
+@media (max-width: 28em) {
+  .nav-item {
+    font-size: 1.8rem;
+  }
+  .section-hero {
+    padding: 0 3.2rem;
+  }
+  .header-primary span {
+    font-size: 4.8rem;
+  }
+  .section-testimonial {
+    max-width: 48rem;
+  }
+
+  .carousel--img-box {
+    width: 16rem;
+  }
+
+  .arrow {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
+  .arrow-container {
+    top: 25%;
+  }
+
+  .quote-img img {
+    width: 4.8rem;
+  }
+
+  .pricing-header {
+    margin-left: 4.8rem;
+  }
+
+  .pricing-box {
+    grid-template-columns: 1fr;
+  }
+
+  .pricing-box--item {
+    margin: auto 4.8rem;
+  }
+  .plan-name {
+    font-size: 3.2rem;
+  }
+
+  .plan-class {
+    font-size: 2rem;
+  }
+
+  .list-item {
+    font-size: 1.8rem;
+  }
+
+  .section-footer {
+    padding: 9.6rem 3.2rem;
+  }
+
+  .footer {
+    column-gap: 1.6rem;
   }
 }
