@@ -235,6 +235,18 @@
     width: 16rem;
   }
 
+  .section-pricing {
+    max-width: 60rem;
+  }
+
+  .plan-name {
+    font-size: 3rem;
+  }
+
+  .list-item {
+    font-size: 1.6rem;
+  }
+
   .feedback {
     font-size: 1.6rem;
     /* line-height: 1.6; */
