@@ -342,6 +342,10 @@
   .carousel--img-box {
     width: 24rem;
   }
+
+  .pricing-box {
+    gap: 3.2rem;
+  }
   .cta {
     margin-left: auto;
   }
