@@ -372,6 +372,9 @@
   .header-primary span {
     font-size: 4.8rem;
   }
+  .section-feature {
+    padding: 4.8rem 3.2rem;
+  }
   .section-testimonial {
     max-width: 48rem;
   }
@@ -423,4 +426,7 @@
   .footer {
     column-gap: 1.6rem;
   }
+}
+
+@media (max-width: 25em) {
 }
