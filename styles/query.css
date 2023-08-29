@@ -428,5 +428,29 @@
   }
 }
 
-@media (max-width: 25em) {
+@media (max-width: 22em) {
+  .header {
+    padding: 2.4rem;
+  }
+  .header-primary {
+    font-size: 1.8rem;
+    /* text-align: left; */
+  }
+  .hero--description-text {
+    text-align: left;
+  }
+  .btn {
+    font-size: 1.4rem;
+  }
+
+  .carousel-container {
+    margin-left: 2.4rem;
+  }
+  .arrow-container {
+    margin-left: 2.4rem;
+  }
+
+  .pricing-box--item {
+    margin: auto 3.2rem;
+  }
 }
