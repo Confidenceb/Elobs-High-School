@@ -453,6 +453,10 @@
   .pricing-box--item {
     margin: auto 3.2rem;
   }
+
+  .form {
+    gap: 1.6rem;
+  }
 }
 
 @media (max-width: 20em) {
