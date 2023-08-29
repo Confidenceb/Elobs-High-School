@@ -454,3 +454,60 @@
     margin: auto 3.2rem;
   }
 }
+
+@media (max-width: 20em) {
+  .header-primary {
+    font-size: 1.6rem;
+  }
+
+  .header-primary span {
+    font-size: 3.6rem;
+  }
+
+  .header-tertiary {
+    font-size: 1.8rem;
+  }
+
+  .description-text {
+    font-size: 1.6rem;
+  }
+
+  .btn {
+    padding: 1.6rem 2.4rem;
+  }
+
+  .feature-text {
+    font-size: 1.2rem;
+  }
+
+  .about-us--text h3 {
+    font-size: 1.8rem;
+  }
+
+  .about-text {
+    font-size: 1.6rem;
+    text-align: left;
+  }
+
+  .carousel--img-box {
+    margin-bottom: 3.2rem;
+  }
+
+  .feedback {
+    padding-top: 1.2rem;
+  }
+
+  .pricing-box--item {
+    padding: 2.4rem 0;
+  }
+
+  .header-footer {
+    font-size: 1.4rem;
+  }
+
+  .footer-link,
+  .address,
+  .copyright {
+    font-size: 1rem;
+  }
+}
