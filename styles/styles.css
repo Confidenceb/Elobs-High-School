@@ -298,9 +298,38 @@ body {
 }
 .testimonial {
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-container {
+  position: relative;
+}
+
+.slide {
+  height: 100%;
+  transition: all 1s;
+}
+
+/* 
+.slide-1 {
+  transform: translateX(0%);
+} 
+*/
+
+.slide-2,
+.slide-3 {
+  position: absolute;
+  top: 0;
+}
+/* 
+.slide-2 {
+  transform: translateX(100%);
+}
+.slide-3 {
+  transform: translateX(200%);
+} */
+
+.testimonial-box {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -344,6 +373,7 @@ body {
 .arrow {
   width: 4.8rem;
   height: 4.8rem;
+  border: none;
   background-color: #f6e2b9;
   display: flex;
   align-items: center;
@@ -351,8 +381,8 @@ body {
   cursor: pointer;
 }
 
-.left,
-.right {
+.btn--left,
+.btn--right {
   background-color: transparent;
   border: none;
 }
