@@ -2,6 +2,7 @@ const btnEl = document.querySelector(".btn-mobile-nav");
 const headerEl = document.querySelector(".header");
 
 const sectionHeroEl = document.querySelector(".section-hero");
+const sectionEl = document.querySelectorAll(".section");
 
 btnEl.addEventListener("click", function () {
   headerEl.classList.toggle("nav-open");
@@ -49,7 +50,7 @@ const observer = new IntersectionObserver(
     // In the viewport
     root: null,
     threshold: 0,
-    rootMargin: "-50px",
+    rootMargin: "-90px",
   }
 );
 
