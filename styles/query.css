@@ -241,6 +241,7 @@
 
   .pricing-header {
     margin-left: auto;
+    margin-bottom: 4.8rem !important;
   }
 
   .plan-name {
