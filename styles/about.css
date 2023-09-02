@@ -1,0 +1,26 @@
+.about-header {
+  /* font-size: 4.8rem; */
+  margin: 5.6rem auto;
+}
+
+.section-about {
+  display: block;
+  padding-right: 0;
+}
+.about-img {
+  width: 100%;
+}
+.about-us--text {
+  padding: 4.8rem;
+  margin: auto;
+}
+
+.header-tertiary {
+  font-size: 3.2rem;
+  margin-bottom: 2.4rem;
+}
+
+.about-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
