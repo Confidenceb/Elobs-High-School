@@ -1,0 +1,30 @@
+.section {
+  max-width: 128rem;
+}
+
+.header-tertiary {
+  font-size: 3.2rem;
+}
+
+.feature-box {
+  display: inline-block;
+}
+
+.feature--box {
+  margin-bottom: 12.8rem;
+  column-gap: 2.4rem;
+  justify-content: center;
+}
+
+.feature--box:nth-child(even) {
+  grid-template-columns: 3fr 1fr;
+}
+
+.feature--box:nth-child(even) .feature--text-box {
+  text-align: end;
+}
+
+.feature-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+}
