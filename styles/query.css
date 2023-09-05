@@ -219,6 +219,14 @@
 }
 
 @media (max-width: 44em) {
+  .logo {
+    width: 4.4rem;
+    height: 4.4rem;
+  }
+  .icon-mobile-nav {
+    width: 2rem;
+    height: 2rem;
+  }
   .header-tertiary {
     font-size: 2rem;
   }
