@@ -1,0 +1,22 @@
+@media (max-width: 59em) {
+  .about-header {
+    margin-left: 2.4rem;
+  }
+  .about-text {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 41em) {
+  .about-us--text {
+    padding: 4.8rem 2.4rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .about-header {
+    margin: 4.8rem 2.4rem;
+  }
+  .about-us--text h3 {
+    font-size: 2rem;
+  }
+}
