@@ -1,0 +1,40 @@
+@media (max-width: 59em) {
+  .header-tertiary {
+    font-size: 2.4rem;
+  }
+  .feature--box {
+    gap: 6.4rem;
+  }
+  .feature-text {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 35em) {
+  .feature--box {
+    grid-template-columns: 1fr;
+  }
+  .feature--box:nth-child(even) {
+    grid-template-columns: 1fr;
+  }
+  .feature--img-box {
+    grid-row: 1;
+  }
+  .header-tertiary {
+    margin-top: 4.8rem;
+  }
+  .feature-text {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 22em) {
+  .header-secondary {
+    font-size: 2.4rem;
+  }
+  .header-tertiary {
+    font-size: 2rem;
+  }
+  .feature-text {
+    font-size: 1.4rem;
+  }
+}

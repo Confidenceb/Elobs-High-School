@@ -7,13 +7,14 @@
 }
 
 .feature-box {
-  display: inline-block;
+  grid-template-columns: 1fr;
 }
 
 .feature--box {
   margin-bottom: 12.8rem;
   /* column-gap: 2.4rem; */
   gap: 9.6rem;
+  /* margin-bottom: 12.8rem; */
   justify-content: center;
 }
 
