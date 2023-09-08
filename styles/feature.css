@@ -22,6 +22,16 @@
   grid-template-columns: 3fr 1fr;
 }
 
+.feature--img-box {
+  background-color: #eee;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .feature-text {
   font-size: 1.8rem;
   line-height: 1.8;
