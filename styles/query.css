@@ -78,8 +78,17 @@
     margin-bottom: 4.8rem;
   }
 
+  .icon {
+    width: 3.6rem;
+    height: 3.6rem;
+  }
+
   .feature-box {
     column-gap: 2.4rem;
+  }
+
+  .feature--img-box {
+    height: 70%;
   }
 
   .section-about {
@@ -235,6 +244,10 @@
     padding: 1.6rem 3.2rem;
   }
 
+  .feature--img-box {
+    height: 50%;
+  }
+
   .section-testimonial {
     max-width: 64rem;
   }
@@ -322,6 +335,11 @@
     margin-bottom: 0;
   }
 
+  .feature--img-box {
+    height: 100%;
+    width: 80%;
+  }
+
   .about-text {
     font-size: 1.6rem;
     line-height: 1.6;
@@ -384,6 +402,17 @@
   .section-feature {
     padding: 4.8rem 3.2rem;
   }
+
+  .feature--img-box {
+    width: 100%;
+    height: 80%;
+  }
+
+  .icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
   .section-testimonial {
     max-width: 48rem;
   }
@@ -443,7 +472,6 @@
   }
   .header-primary {
     font-size: 1.8rem;
-    /* text-align: left; */
   }
   .hero--description-text {
     text-align: left;
@@ -452,12 +480,16 @@
     font-size: 1.4rem;
   }
 
+  .feature--img-box {
+    height: 50%;
+  }
+
   .testimonial-box {
     margin-left: 2.4rem;
   }
-  .arrow-container {
+  /* .arrow-container {
     margin-left: 2.4rem;
-  }
+  } */
 
   .pricing-box--item {
     margin: auto 3.2rem;
@@ -487,6 +519,11 @@
 
   .btn {
     padding: 1.6rem 2.4rem;
+  }
+
+  .icon {
+    width: 2.4rem;
+    height: 2.4rem;
   }
 
   .feature-text {
