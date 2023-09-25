@@ -222,7 +222,7 @@ body {
 }
 
 .hero-img {
-  width: 51rem;
+  max-width: 51rem;
 }
 
 /***************************/

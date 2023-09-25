@@ -402,6 +402,10 @@
   .header-primary span {
     font-size: 4.8rem;
   }
+
+  .hero-img {
+    width: 40rem;
+  }
   .section-feature {
     padding: 4.8rem 3.2rem;
   }
@@ -530,6 +534,10 @@
   .icon {
     width: 2.4rem;
     height: 2.4rem;
+  }
+
+  .hero-img {
+    width: 35rem;
   }
 
   .feature-text {
