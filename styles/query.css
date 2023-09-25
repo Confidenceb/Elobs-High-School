@@ -173,7 +173,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    transform: translateX(100%);
+    transform: translateX(-100%);
     display: flex;
     align-items: center;
     justify-content: center;
