@@ -20,10 +20,11 @@ PARAGRAPH DEFAULT:1.6
 0.75PX
 --- 02 COLOUR SYSTEM
 
-- PRIMARY: ##f6e2b9
+- PRIMARY: #f6e2b9
 - TINT: 
 #aca482
 #fffcef
+#fff9df
 #fff9df
 
 
@@ -176,7 +177,7 @@ body {
   font-size: 1.8rem;
   letter-spacing: 1.5px;
   margin-bottom: 4.8rem;
-  color: #f6e2b9;
+  color: #f3daa5;
 }
 .header-primary span {
   font-size: 4.8rem;
