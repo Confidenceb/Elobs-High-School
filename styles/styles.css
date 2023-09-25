@@ -177,7 +177,7 @@ body {
   font-size: 1.8rem;
   letter-spacing: 1.5px;
   margin-bottom: 4.8rem;
-  color: #f3daa5;
+  color: #edc878;
 }
 .header-primary span {
   font-size: 4.8rem;
@@ -213,7 +213,7 @@ body {
 }
 
 .btn--read-more {
-  background-color: #aca482;
+  background-color: #787150;
   color: #fff;
 }
 .btn--read-more a {
@@ -491,7 +491,7 @@ body {
 
 .section-cta {
   /* padding: 4.8rem 4.8rem 0 4.8rem; */
-  background-color: #aca482;
+  background-color: #787150;
   margin-bottom: 12.8rem;
 }
 
@@ -507,7 +507,7 @@ body {
 }
 
 .cta-header span {
-  color: #222;
+  color: #000;
 }
 
 .form {
